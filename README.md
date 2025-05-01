@@ -1,12 +1,71 @@
-# React + Vite
+# 🛍️ ProductHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based product management platform to explore and practice core React.js concepts through a dynamic interface connected to the Fake Store API.
 
-Currently, two official plugins are available:
+**🔗 Live Demo**: [https://producthub-8j6h.onrender.com](https://producthub-8j6h.onrender.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**ProductHub** allows users to browse, filter, and manage a list of products retrieved from a public API. The application includes full CRUD functionality, dynamic routing, and a responsive UI. It was built as a practical exercise to strengthen proficiency in React.js.
+
+---
+
+## ✨ Features
+
+- 🔄 **Dynamic Product Listing**  
+  Fetches and displays products from the [Fake Store API](https://fakestoreapi.com/).
+
+- 🧩 **Category-Based Filtering**  
+  Users can filter products by category in real-time.
+
+- 🔍 **Product Detail View**  
+  Clicking on a product navigates to a detailed page with full product information.
+  
+- #### 🧰 **CRUD Functionality**
+  - ✏️ **Edit Product**  
+         Modify existing product data using a pre-filled form.
+
+  - ❌ **Delete Product**  
+  Remove a product from the list with a single click.
+
+  - ➕ **Add New Product**  
+  Use a dedicated form to add new products to the catalog.
+
+- 📱 **Responsive UI**  
+  Optimized for both desktop and mobile screens.
+
+- 🔗 **Client-Side Routing**  
+  Implemented with React Router for smooth navigation.
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool/Technology | Purpose                      |
+|-----------------|------------------------------|
+| React.js        | Frontend UI development      |
+| React Router    | Page navigation & routing    |
+| FakeStoreAPI    | Product data source          |
+| Render.com      | Deployment platform          |
+| Git & GitHub    | Version control              |
+
+---
+
+## 🎯 Learning Objectives
+
+- Strengthen understanding of React components, props, and state
+- Practice handling API calls with `fetch`
+- Learn and implement routing with React Router
+- Perform CRUD operations using local state
+- Gain experience deploying a React app with Render
+
+---
+
+## 📂 Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/IshaJain105/ProductHub.git
+   cd ProductHub
